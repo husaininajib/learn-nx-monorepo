@@ -1,0 +1,8 @@
+{
+  "name": "quacker-web",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/quacker-web",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}

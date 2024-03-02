@@ -1,0 +1,8 @@
+{
+  "name": "qucker-mobile",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/qucker-mobile/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
