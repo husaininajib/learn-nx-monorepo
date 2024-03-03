@@ -1,4 +1,5 @@
-import './global.css';
+import './global.scss';
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 
 export const metadata = {
   title: 'Welcome to quacker-web',
@@ -12,7 +13,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+      <AppRouterCacheProvider>
+        {children}
+      </AppRouterCacheProvider>
+      </body>
     </html>
   );
 }
